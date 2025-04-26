@@ -1,0 +1,19 @@
+let username = "my name";
+let bonusBalance = 1000;
+let day = 1;
+let getbonus = 0;
+let losebonus = 0;
+
+console.log("Пользователь " + username);
+console.log("Баланс: " + bonusBalance);
+
+for(i = 0; i < 7; i++) {
+  if (day%2 == 0) {
+    getbonus = getbonus + 50;
+  }
+    losebonus = losebonus + 3;
+    day++;
+}
+
+console.log("\nПользователь " + username);
+console.log("Баланс Через 7 дней: " + (bonusBalance + getbonus - losebonus));
