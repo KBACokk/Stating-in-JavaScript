@@ -1,0 +1,38 @@
+let me = "Вы:";
+let friend = "Друг: ";
+
+let arr = ["Привет", 
+           "Здорово, коль не шутишь!", 
+           "Пойдем гулять в парк?", 
+           "Кажется, дождь собирается. Лучше пойдем в кино!",
+           "Давай, сегодня как раз вышел новый фильм.",
+           "Встречаемся через час у кинотеатра."
+];
+
+let search = "кино";
+let index = [];
+
+let random = Math.floor(Math.random() * 2);
+
+for(let i = 0; i < arr.length; i++) {
+  if (random % 2 == 0) {
+    console.log(me, arr[i]);
+  }
+  if (random % 2 == 1) {
+    console.log(friend, arr[i]);
+  }
+  if (arr[i].includes(search)) {
+    index.push(i);
+  }
+  random++;
+}
+
+console.log("\n\n");
+
+if (index.length > 0) {
+  console.log("Найдено совпадений: " + index.length);
+  for(let i = 0; i < index.length; i++) {
+    console.log("> " + arr[index[i]]);
+  }
+}
+else {console.log("Совпадений не найдено");}
