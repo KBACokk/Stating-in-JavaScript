@@ -34,11 +34,6 @@ git clone https://github.com/KBACokk/Studying_-html-_-css-_-js-/resume.git
 #### 3. Получение конечного результата (PDF файл).
 ![image](https://github.com/user-attachments/assets/4eb4d784-9f4c-40d4-bbb1-4dbbb90bccc3)
 
-
-```
-
-
-
 ---
 
 ## ⚠️ Важные примечания
