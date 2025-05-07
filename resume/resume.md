@@ -17,7 +17,7 @@
 git clone https://github.com/KBACokk/Studying_-html-_-css-_-js-/resume.git
 ```
 А так же возможность просмотра напрямую с сайта 
-![Perlit](https://replit.com/@statsenko228s/Unnamed-package#index.html)
+[Perlit](https://replit.com/@statsenko228s/Unnamed-package#index.html)
 
 ---
 
